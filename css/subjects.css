@@ -1,0 +1,58 @@
+.subjects{
+    margin-top: 100px;
+}
+.subjects{
+
+
+    padding: 2rem 0;
+}
+
+.subjects{
+    width: 1366px;
+    margin: 0 auto;
+    padding:0  5rem;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+
+    flex-direction: row;
+    justify-content: center;
+    border-color: green;
+
+}
+
+ h4{
+    margin-top: 80px;
+    color:darkgreen;
+    font-size: 1.6rem;
+    margin-bottom: 5px;}
+
+ .subject{
+display:flex;
+flex-direction: column ;
+align-items: center;
+padding: 2rem;
+max-width: 17rem;
+border: 2px;
+border-radius: 2px;
+margin: 2rem;
+background-color: white;
+color: darkblue;
+font-size: 1.5rem;
+cursor: pointer;
+font-family:Arial, Helvetica;
+text-align: center;
+border: none;
+}
+body{
+    background-image: url("../media/edu.jpg");
+    background-position: center;
+    background-size: cover;
+ }
+
+.subject:hover{
+    border: 2px solid green;
+}
+
+.subject i{
+    font-size: 2rem;
+    color: darkblue

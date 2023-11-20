@@ -1,0 +1,52 @@
+
+    .gridContainer{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+       border: 1px;
+       border-radius: 2px;
+         margin-left: 20px;
+         margin-top: 70px;
+         
+    }
+    
+    .gridItem{
+        margin-left: 20px;
+        color:darkblue;
+        border: 2px;
+        border-color: blue;
+    }
+    .gridContainer img{
+        height: 200px;
+        width: 200px;
+       
+    }
+    .carousel-item  img{   height: 10%;
+     width: 10%;
+ }
+     
+   
+   .gridContainer img:hover{
+       border: 2px;
+       border-radius: 2px;
+       border-block-color: green;
+       
+}
+   
+   h3{
+       margin-top: 200px;
+       color: navy;
+       margin-right: 40px;
+   }
+
+   span{
+color: brown;
+
+   }
+   body{
+    background-image: url("../media/edu.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
