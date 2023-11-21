@@ -7,19 +7,21 @@
        border-radius: 2px;
          margin-left: 20px;
          margin-top: 70px;
-         
+        
     }
     
     .gridItem{
         margin-left: 20px;
         color:darkblue;
-        border: 2px;
+        border: 5px;
+        border-radius: 5px;
         border-color: blue;
     }
     .gridContainer img{
         height: 200px;
         width: 200px;
-       
+       border: 2px solid darkolivegreen;
+       margin-top: 40px;
     }
     .carousel-item  img{   height: 10%;
      width: 10%;
@@ -33,10 +35,11 @@
        
 }
    
-   h3{
-       margin-top: 200px;
-       color: navy;
+.gridContainer h3{
+       margin-top: 50px;
+       color:darkgreen;
        margin-right: 40px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
 
    span{

@@ -10,7 +10,7 @@
 .subjects{
     width: 1366px;
     margin: 0 auto;
-    padding:0  5rem;
+    padding:0  4rem;
     display: grid;
     grid-template-columns: auto auto auto ;
 
@@ -35,13 +35,12 @@ max-width: 17rem;
 border: 2px;
 border-radius: 2px;
 margin: 2rem;
-background-color: white;
-color: darkblue;
+background-color: transparent;
+color: darkgreen;
 font-size: 1.5rem;
 cursor: pointer;
 font-family:Arial, Helvetica;
 text-align: center;
-border: none;
 }
 body{
     background-image: url("../media/edu.jpg");
@@ -50,9 +49,28 @@ body{
  }
 
 .subject:hover{
-    border: 2px solid green;
+    border: 2px solid burlywood;
 }
 
 .subject i{
     font-size: 2rem;
     color: darkblue
+}
+
+
+#icons{
+    width: 60px;
+    height: 60px;
+    border: 2px solid sienna;
+}
+
+#browse{
+    color: darkgreen;
+    font-size: 1.2rem;
+}
+
+
+ #courseS{
+     font-size: 1.2rem;
+     color:brown;
+ }

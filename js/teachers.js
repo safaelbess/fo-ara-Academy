@@ -19,4 +19,14 @@
 
 //     }
 // }
-v
+var anasProf=document.getElementById("anas");
+anasProf.addEventListener("click",function(e){
+
+e.preventDefault();
+alert("hi")
+Location.replace("../pages/anas.html");
+}
+
+
+
+);
