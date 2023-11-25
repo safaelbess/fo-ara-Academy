@@ -1,4 +1,11 @@
 
+
+
+*{
+    
+
+
+}
 #headerDiv h1{
     color:darkblue ;
     font-size: 20px;
@@ -8,7 +15,7 @@
 
 }
 
-.teachers{
+/* .teachers{
     float: right;
 width: 1366px;
 margin: 0 auto;
@@ -45,4 +52,4 @@ font-size: 1rem;
 font-family:Arial, Helvetica;
 text-align: center;
 border: none;
-}
+} */

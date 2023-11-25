@@ -3,7 +3,7 @@ var nameForm = document.getElementById('form3Example1c');
 var emailForm = document.getElementById('form3Example3c');
 var passwordForm = document.getElementById('form3Example4c');
 var confirmPasswordForm = document.getElementById('form3Example4cd');
-var usersData = localStorage.getItem('user') ? JSON.parse(localStorage.getItem('user')) : [] ;
+var usersData = localStorage.getItem('users') ? JSON.parse(localStorage.getItem('users')) : [] ;
 console.log(usersData);
 regForm.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -33,7 +33,7 @@ regForm.addEventListener('submit', function (e) {
             email:emailForm.value,
             password:passwordForm.value
         };
-        if(usersData!=null){
+        if(usersData.length!=0){
             let isExist = false;
         for (let i = 0; i< usersData.length;i++){
             if(usersData[i]['email']==emailForm.value){
@@ -66,8 +66,8 @@ regForm.addEventListener('submit', function (e) {
         }
         if(isExist==true){
             usersData.push(user);
-                localStorage.setItem('user',JSON.stringify(usersData));
-                console.log(localStorage.getItem('user'));
+                localStorage.setItem('users',JSON.stringify(usersData));
+                console.log(localStorage.getItem('users'));
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
@@ -75,13 +75,14 @@ regForm.addEventListener('submit', function (e) {
                     showConfirmButton: false,
                     timer: 1500
                   });
+                  location.replace('./login.html');
         }
     }
     else{
 
         usersData.push(user);
-                localStorage.setItem('user',JSON.stringify(usersData));
-                console.log(localStorage.getItem('user'));
+                localStorage.setItem('users',JSON.stringify(usersData));
+                console.log(localStorage.getItem('users'));
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
@@ -91,6 +92,7 @@ regForm.addEventListener('submit', function (e) {
                   }); 
     };
   }
+
 });	
 
 
