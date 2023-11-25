@@ -22,7 +22,7 @@
 
  h4{
     margin-top: 80px;
-    color:darkgreen;
+    color:darkblue;
     font-size: 1.6rem;
     margin-bottom: 5px;}
 
@@ -48,7 +48,7 @@ body{
     background-size: cover;
  }
 
- .subjects.subject:hover{
+ .subject:hover{
     border: 2px solid burlywood;
 }
 
