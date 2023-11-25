@@ -6,6 +6,8 @@ debugger;
 if (localStorage.getItem('name') != null){
     
     loginOrOut.innerHTML='logout';
+    document.getElementById('register').style.display = 'none';
+
 }
 else{
     alert('you are not a user please login');

@@ -10,16 +10,15 @@ var loginOrOut = document.getElementById("loginOrOut");
 
          
         }
-    
+    else{
+        loginOrOut.innerHTML='logOut';
+        document.getElementById('register').style.display = 'none';
+
+
+    }
 //     loginOrOut.innerHTML='logout';
 // }
 // else{
 //     alert('you are not a user please login');
 //     location.replace('./login.html');
 // }
-function clearStorage(){
-    localStorage.removeItem('name');
-    localStorage.removeItem('email');
-    localStorage.removeItem('password');
-    location.replace('../pages/login.html');
-}

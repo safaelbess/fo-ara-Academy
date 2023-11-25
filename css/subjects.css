@@ -48,7 +48,7 @@ body{
     background-size: cover;
  }
 
-.subject:hover{
+ .subjects.subject:hover{
     border: 2px solid burlywood;
 }
 
@@ -80,3 +80,4 @@ body{
     height: 300px;
     padding: 10px;
 }
+

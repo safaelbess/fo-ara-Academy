@@ -62,7 +62,11 @@
         font-size: 1.2rem;
         color :darkblue;
     }
-
+    #aboutImg:hover{
+        border: 2px solid burlywood;
+ 
+    }
+    
     #methods{
         color:darkred;
     }
